@@ -1,62 +1,98 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mon Portfolio</title>
+  <title>Accueil</title>
   <style>
-    nav ul {
-    background-color: #f8f9fa;
-    list-style-type: none;
-    text-align: center;
-    padding: 0;
-  }
-  nav ul li {
-    display: inline;
-    margin-right: 10px;
-  }
-  nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 18px;
-  }
-
     body {
-	
-      font-family: Arial, sans-serif;
+      font-family: 'Arial', sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
     }
     .header {
       background-color: #f8f9fa;
       text-align: center;
       padding: 20px;
     }
+    .header h1 {
+      font-size: 30px;
+    }
+    nav {
+      background-color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 18px;
+    }
     .content {
-      margin: 20px;
+      margin: 0 auto;
+      width: 50%;
+      max-width: 800px;
+      text-align: center;
+      padding: 50px 0;
+    }
+    h2, h3 {
+      color: #333;
+    }
+    p, a {
+      color: #666;
+      line-height: 1.6;
+    }
+    a {
+      text-decoration: none;
+    }
+    a:hover {
+      color: #333;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #007BFF;
+      color: #fff;
+      padding: 10px 20px;
+      margin: 20px 0;
+      text-decoration: none;
+      border-radius: 3px;
+      transition: background-color 0.3s;
+    }
+    .btn:hover {
+      background-color: #0056b3;
     }
   </style>
 </head>
 <body>
+  <div class="header">
+    <h1>Bienvenue sur mon portfolio</h1>
+    <p>Je suis en première année de BTS cybersécurité, informatique et réseaux, électronique. A la recherche d'une alterance.</p>
+  </div>
+  
   <nav>
     <ul>
       <li><a href="index.html">Accueil</a></li>
       <li><a href="about.html">À propos</a></li>
       <li><a href="cv.html">CV</a></li>
-      <li><a href="blog.html">Blog</a></li>
       <li><a href="portfolio.html">Portfolio</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
-
-
-  <div class="header">
-    <h1>Bienvenue sur mon portfolio</h1>
-    <p>Je suis en première année de BTS cybersécurité, informatique et réseaux, électronique.</p>
-  </div>
   
   <div class="content">
-    <h2>À propos de moi</h2>
-    <p>Une courte biographie sur vous-même ici.</p>
-
-    <h2>Mes compétences</h2>
-    <p>Une liste de vos compétences ici.</p>
+    <h2>Cherche alternance en cybersécurité, informatique et réseaux, électronique</h2>
+    <p>Je suis passionné par le domaine de la cybersécurité et cherche activement une alternance. Découvrez mon CV, mon portfolio et mon blog pour en savoir plus sur moi.</p>
+    <a href="cv.html" class="btn">Voir mon CV</a>
+    <a href="portfolio.html" class="btn">Voir mon Portfolio</a>
   </div>
 </body>
 </html>
