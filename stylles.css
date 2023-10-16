@@ -68,7 +68,7 @@ a:hover {
   background-color: #0056b3;
 }
 a {
-  color: blue;
+  color: rgb(14, 14, 139);
   text-decoration: underline;
 }
 
